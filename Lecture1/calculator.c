@@ -12,5 +12,18 @@ int main(void)
     printf("You entered, for y: %ld \n", second_num);
 
     printf("Sum of x and y is: %li \n", first_num+second_num);
+
+    if (first_num < second_num)
+    {
+        printf("x is less than y \n");
+    }
+    else if (first_num > second_num)
+    {
+        printf("x is greater than y \n");
+    }
+    else
+    {
+        printf("x is equal to y \n");
+    }
     return 0;
 }
