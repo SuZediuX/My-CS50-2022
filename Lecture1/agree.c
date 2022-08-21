@@ -6,11 +6,11 @@ int main(void)
     printf("Do you agree?\n");
     scanf("%s", &store);
 
-    if(store=='y'||store=='Y')
+    if(store=='y'|| store=='Y')
     {
         printf("Agreed.\n");
     }
-    else if(store=='n'||store=='N')
+    else if(store=='n'|| store=='N')
     {
         printf("Didn't agree.\n");
     }
