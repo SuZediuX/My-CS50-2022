@@ -7,7 +7,7 @@ int main(void)
     printf("Enter an integer: \n");
     scanf("%i", &n);
 
-    if(n%2==0)
+    if(n % 2 == 0)
     {
         printf("The number you entered is even!\n");
     }
