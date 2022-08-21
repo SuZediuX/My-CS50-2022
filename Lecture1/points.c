@@ -3,16 +3,16 @@
 int main(void)
 {
     int points;
-    int my_points = 2;
+    const int MY_POINTS = 2;
     
     printf("How many points did you lose?\n");
     scanf("%i", &points);
 
-    if(points < my_points)
+    if(points < MY_POINTS)
     {
         printf("You lost less points than me.\n");
     }
-    else if(points > my_points)
+    else if(points > MY_POINTS)
     {
         printf("You lost more points than me.\n");
     }
