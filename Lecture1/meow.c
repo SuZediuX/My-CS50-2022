@@ -8,10 +8,11 @@ int main(void)
     {
         printf("Meow!\n");
     }
-
+/*
     while(counter < 3)
     {
         printf("Meow!!!\n");
         counter++;
     }
+*/
 }
