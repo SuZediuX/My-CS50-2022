@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void meow(void)
+{
+
+}
+
 int main(void)
 {
     int counter = 0;
@@ -15,4 +20,5 @@ int main(void)
         counter++;
     }
 */
+    return 0;
 }
