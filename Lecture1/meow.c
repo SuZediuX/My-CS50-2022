@@ -7,4 +7,10 @@ int main(void)
         printf("Meow!\n");
     }
     
+    int counter = 0;
+    while(counter < 3)
+    {
+        printf("Meow!!!\n");
+        counter++;
+    }
 }
