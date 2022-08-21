@@ -2,7 +2,7 @@
 
 void meow(void)
 {
-
+    printf("Meow!\n");
 }
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 
     for(int iter=0;iter<3;iter++)
     {
-        printf("Meow!\n");
+        meow();
     }
 /*
     while(counter < 3)
