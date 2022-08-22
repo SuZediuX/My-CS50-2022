@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void)
 {
@@ -6,6 +7,6 @@ int main(void)
     printf("Enter dollar amount: ");
     scanf("%f",&dollar);
 
-    int pennies = dollar * 100;
+    int pennies = round(dollar * 100);
     printf("\nPennies based on amount you entered: %i\n",pennies);
 }
