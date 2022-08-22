@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-void meow(void);    //Function declaration
+void meow(int);    //Function declaration
 
 int main(void)
 {
-    int counter = 0;
+    //int counter = 0;
+    int choice;
 
-    for(int iter=0;iter<3;iter++)
-    {
-        meow();
-    }
+    printf("Enter number of times you want to display 'Meow!'\n");
+    scanf("%i",&choice);
+    meow(choice);
+    
 /*
     while(counter < 3)
     {
@@ -20,7 +21,11 @@ int main(void)
     return 0;
 }
 
-void meow(void)    //Function definition
+void meow(int param)    //Function definition
 {
-    printf("Meow!\n");
+    for(int iter=0; iter<param; iter++)
+    {
+        printf("Meow!\n");
+    }
+
 }
