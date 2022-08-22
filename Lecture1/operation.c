@@ -2,15 +2,16 @@
 
 int main(void)
 {
-    float x, y, z;
+    //float z;
+    int x, y;
     
     printf("X:");
-    scanf("%f",&x);    
+    scanf("%i",&x);    
     printf("\nY:");
-    scanf("%f",&y); 
+    scanf("%i",&y); 
 
-    z = x / y;
+    float z = (float) x / (float) y;
 
-    printf("\nZ: %.2f\n", z);
+    printf("\nZ: %.50f\n", z);
     
 }
