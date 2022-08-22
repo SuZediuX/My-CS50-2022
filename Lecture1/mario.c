@@ -13,7 +13,12 @@ int main(void)
 
     for(int iter=0; iter<n; iter++)
     {
-        printf("?");
+        //printf("#");
+        for(int iter=0; iter<n; iter++)
+        {
+            printf("#");
+        }
+        printf("\n");
     }
-    printf("\n");
+    
 }
