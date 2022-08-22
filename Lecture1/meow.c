@@ -9,7 +9,7 @@ int main(void)
 
     printf("Enter number of times you want to display 'Meow!'\n");
     scanf("%i",&choice);
-    meow(choice);
+    meow(choice);   //Calling the function with a parameter
     
 /*
     while(counter < 3)
