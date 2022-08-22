@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-void meow(void)
-{
-    printf("Meow!\n");
-}
+void meow(void);    //Function declaration
 
 int main(void)
 {
@@ -21,4 +18,9 @@ int main(void)
     }
 */
     return 0;
+}
+
+void meow(void)    //Function definition
+{
+    printf("Meow!\n");
 }
