@@ -11,6 +11,6 @@ int main(void)
 
     z = x / y;
 
-    printf("\nZ: %f\n", z);
+    printf("\nZ: %.2f\n", z);
     
 }
