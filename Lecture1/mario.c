@@ -2,19 +2,19 @@
 
 int main(void)
 {
-    int n;
+    int size;
 
     do
     {
         printf("Enter width: \n");
-        scanf("%i",&n);
+        scanf("%i",&size);
     }
-    while(n < 1);
+    while(size < 1);
 
-    for(int iter=0; iter<n; iter++)
+    for(int iter=0; iter<size; iter++)
     {
         //printf("#");
-        for(int iter=0; iter<n; iter++)
+        for(int iter=0; iter<size; iter++)
         {
             printf("#");
         }
